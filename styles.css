@@ -312,20 +312,4 @@ footer p {
     }
 }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-bg: #0a0a0a;
-        --color-text: #ededed;
-        --color-text-secondary: #a0a0a0;
-        --color-accent: #4d9fff;
-        --color-accent-hover: #7ab8ff;
-        --color-border: #2a2a2a;
-        --color-border-dark: #ededed;
-        --color-card-bg: #141414;
-    }
-
-    .contact-link.linkedin:hover {
-        background: #1a2533;
-    }
-}
+/* Dark mode disabled for now - keeping light theme only */
