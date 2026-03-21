@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 30px;
+      line-height: 1.7;
+      color: #1a1a2e;
+      background: #fafafa;
+    }
+    h1 { color: #16213e; border-bottom: 2px solid #e94560; padding-bottom: 10px; }
+    h2 { color: #16213e; margin-top: 2em; }
+    h3 { color: #0f3460; }
+    a { color: #e94560; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    blockquote {
+      border-left: 4px solid #e94560;
+      margin: 1em 0;
+      padding: 0.5em 1em;
+      background: #f0f0f5;
+      color: #444;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1em 0;
+      font-size: 0.95em;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th { background: #16213e; color: white; }
+    tr:nth-child(even) { background: #f5f5fa; }
+    code {
+      background: #eef;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 0.9em;
+    }
+    pre {
+      background: #1a1a2e;
+      color: #e0e0e0;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    pre code { background: none; color: inherit; padding: 0; }
+    .mermaid {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #e0e0e8;
+      margin: 1em 0;
+      text-align: center;
+    }
+    hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
+    nav.site-nav {
+      background: #16213e;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-bottom: 2em;
+    }
+    nav.site-nav a {
+      color: #fff;
+      margin-right: 20px;
+      font-weight: 500;
+    }
+    nav.site-nav a:hover { color: #e94560; text-decoration: none; }
+    footer {
+      margin-top: 3em;
+      padding-top: 1em;
+      border-top: 1px solid #ddd;
+      color: #888;
+      font-size: 0.85em;
+    }
+    @media (max-width: 600px) {
+      body { padding: 10px 15px; }
+      table { font-size: 0.8em; }
+      th, td { padding: 4px 6px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="/family/">Family Stories</a>
+    <a href="/family/06_STORY_Famous_Connections.html">Famous Connections</a>
+    <a href="/family/10_ROGER_PROFILE.html">Roger's Profile</a>
+    <a href="/family/09_DNA_ENRICHMENT.html">DNA</a>
+    <a href="/">Portfolio</a>
+  </nav>
+
+  {{ content }}
+
+  <footer>
+    Built from 72,182 documented ancestors &middot; Data from <a href="https://www.familysearch.org">FamilySearch</a> &amp; <a href="https://www.23andme.com">23andMe</a>
+  </footer>
+
+  <!-- Mermaid.js for diagram rendering -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'default',
+      securityLevel: 'loose'
+    });
+
+    // Convert ```mermaid code blocks into rendered diagrams
+    document.querySelectorAll('pre code.language-mermaid').forEach((block) => {
+      const container = document.createElement('div');
+      container.className = 'mermaid';
+      container.textContent = block.textContent;
+      block.parentElement.replaceWith(container);
+    });
+
+    // Also handle any existing .mermaid divs
+    await mermaid.run();
+  </script>
+</body>
+</html>
