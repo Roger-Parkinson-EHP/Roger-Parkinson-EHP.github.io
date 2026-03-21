@@ -1,0 +1,4 @@
+title: "Roger Parkinson"
+markdown: kramdown
+kramdown:
+  input: GFM
