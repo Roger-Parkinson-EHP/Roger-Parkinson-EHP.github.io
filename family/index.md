@@ -23,6 +23,7 @@ Start here — these read like chapters of a book:
 | 3 | [**The Deep Roots**](05_STORY_Deep_Roots.md) | 1,800-year timeline from Roman Britain to present-day Idaho |
 | 4 | [**Famous Connections**](06_STORY_Famous_Connections.md) | Chaucer, kings, Agincourt, the Tower of London, and the founder of Rexburg |
 | 5 | [**Roger's Complete Profile**](10_ROGER_PROFILE.md) | Everything we know — parents, grandparents, DNA, all migration stories |
+| 6 | [**Why They Left**](12_STORY_Why_They_Left.md) | The Industrial Revolution, cotton mills, tin mines, crop failures — why every branch of our family crossed the ocean |
 
 ---
 
