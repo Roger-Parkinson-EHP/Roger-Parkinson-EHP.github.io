@@ -20,6 +20,9 @@ This is the story of why.
 
 ## Chapter 1: The Cotton Trap (Lancashire, 1760-1860)
 
+![Pendle Hill, Lancashire — the shadow that hung over the Parkinson homeland](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Pendle_Hill_from_Clitheroe_Castle.jpg/800px-Pendle_Hill_from_Clitheroe_Castle.jpg)
+*Pendle Hill, Lancashire — the Parkinson family lived in its shadow for six generations. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Pendle_Hill), CC BY-SA.*
+
 Your Parkinson line lived in the heart of the [Industrial Revolution](https://en.wikipedia.org/wiki/Industrial_Revolution) — not as its beneficiaries, but as its raw material.
 
 **[Barrowford](https://en.wikipedia.org/wiki/Barrowford)**, Lancashire. A village in the shadow of [Pendle Hill](https://en.wikipedia.org/wiki/Pendle_Hill). By the time your ancestor **Henry Webster Parkinson** (b. 1768) was growing up, the [Lancashire cotton industry](https://en.wikipedia.org/wiki/Lancashire_cotton_industry) was transforming the countryside into the world's first industrial landscape:
@@ -55,6 +58,9 @@ Then came the [Lancashire Cotton Famine](https://en.wikipedia.org/wiki/Lancashir
 
 ## Chapter 2: The Cornish Exodus (Cornwall, 1830-1900)
 
+![Botallack Crown Mines, Cornwall — tin mine engine houses on the Atlantic cliffs](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Botallack_Crown_mines_1.jpg/800px-Botallack_Crown_mines_1.jpg)
+*Botallack Crown Mines, Cornwall — engine houses perched on Atlantic cliffs. When the mines failed, 250,000 Cornish people left. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Tin_mining_in_Cornwall), CC BY-SA.*
+
 Your grandmother **Bessie Ann Doney** (b. 1875, Franklin, Idaho) carried a Cornish name. The Doneys came from [Cornwall](https://en.wikipedia.org/wiki/Cornwall) — the far southwestern tip of England, a peninsula of granite, moors, and mine shafts.
 
 Cornwall's story is tin. For **4,000 years**, Cornish miners dug tin and copper from the earth. The Romans came for it. The Phoenicians may have traded for it. By the 1800s, Cornwall was the world's largest producer of copper and tin.
@@ -87,6 +93,9 @@ Her descendants married into the Parkinsons in Franklin, Idaho. Two families pus
 
 ## Chapter 3: The Island They Couldn't Feed (Gotland, 1850-1910)
 
+![Visby city wall, Gotland — medieval walls still standing from when the Ostberg ancestors lived on the island](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Visby_-_KMB_-_16001000006707.jpg/800px-Visby_-_KMB_-_16001000006707.jpg)
+*Visby, Gotland — 13th-century city walls. The most complete medieval fortification in Scandinavia, on the island your maternal line called home for eight generations. Photo: [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Visby_city_wall), CC BY-SA.*
+
 While the Parkinsons fled cotton mills and the Doneys fled collapsed mines, your maternal line faced a different crisis on a [Baltic Sea](https://en.wikipedia.org/wiki/Baltic_Sea) island 1,000 miles to the northeast.
 
 [Gotland](https://en.wikipedia.org/wiki/Gotland), Sweden. A limestone island, flat and fertile, but finite. By the mid-1800s, Gotland was running out of room:
@@ -117,6 +126,9 @@ Anna Maria married Alexander Smith Coleman in Plano, Idaho. She lived to be 82 �
 ---
 
 ## Chapter 4: The Puritan Gamble (England → Massachusetts, 1620-1640)
+
+![The Mayflower in Plymouth Harbor by William Halsall (1882)](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mayflower_in_Plymouth_Harbor%2C_by_William_Halsall.jpg/800px-Mayflower_in_Plymouth_Harbor%2C_by_William_Halsall.jpg)
+*The Mayflower in Plymouth Harbor, 1620. Your ancestors were part of the wave that followed — 20,000 Puritans between 1620 and 1640. Painting by William Halsall (1882), [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mayflower_in_Plymouth_Harbor,_by_William_Halsall.jpg), public domain.*
 
 Long before the Industrial Revolution pushed your ancestors out, **religion pulled them across.**
 
@@ -159,6 +171,9 @@ And from those colonial roots, through 10 more generations, the line eventually 
 ---
 
 ## Chapter 5: The Scottish Clearances and Border Wars
+
+![Battle of Bannockburn — Robert the Bruce at the head of the Scottish army](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Battle_of_Bannockburn_-_Bruce_addresses_troops.jpg/800px-Battle_of_Bannockburn_-_Bruce_addresses_troops.jpg)
+*Battle of Bannockburn, 1314. 17 of your ancestors died at Scotland's most famous battle. Illustration from *Cassell's History of England*, [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Battle_of_Bannockburn), public domain.*
 
 Your tree has **4,164 Scottish ancestors** — the third largest group after England and Wales. They come from two distinct streams:
 
