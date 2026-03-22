@@ -37,7 +37,8 @@ Start here — these read like chapters of a book, from the family lines to the 
 
 | | Story | What It Covers |
 |-|-------|---------------|
-| 8 | [**DNA Enrichment**](09_DNA_ENRICHMENT.md) | 23andMe integration — paternal haplogroup R-S476 (Niall of the Nine Hostages), maternal haplogroup V (Benjamin Franklin), ancestry composition validating the documentary tree, 275,000-year timeline |
+| 8 | [**Your DNA, Painted**](14_STORY_Your_DNA_Painted.md) | **NEW** — Chromosome-by-chromosome map from real 23andMe data. Which chromosomes carry Scottish, Swedish, Welsh, Dutch DNA. Full paternal line (275K years → Idaho) and maternal line (200K years → Idaho). GEDmatch guide. |
+| 9 | [**DNA Enrichment**](09_DNA_ENRICHMENT.md) | Haplogroup deep dives — R-S476 (Niall of the Nine Hostages), Haplogroup V (Benjamin Franklin), ancestry composition validating the documentary tree, 275,000-year timeline |
 | 9 | [**Data Overview**](01_DATA_OVERVIEW.md) | The raw numbers: 72,182 individuals, 39,997 families, 25 generations, 100% FamilySearch linkage |
 
 ### The Technical
