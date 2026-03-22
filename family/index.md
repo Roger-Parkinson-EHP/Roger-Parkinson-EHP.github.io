@@ -24,6 +24,7 @@ Start here — these read like chapters of a book:
 | 4 | [**Famous Connections**](06_STORY_Famous_Connections.md) | Chaucer, kings, Agincourt, the Tower of London, and the founder of Rexburg |
 | 5 | [**Roger's Complete Profile**](10_ROGER_PROFILE.md) | Everything we know — parents, grandparents, DNA, all migration stories |
 | 6 | [**Why They Left**](12_STORY_Why_They_Left.md) | The Industrial Revolution, cotton mills, tin mines, crop failures — why every branch of our family crossed the ocean |
+| 7 | [**The Lives They Lived**](13_STORY_Lives_They_Lived.md) | Skills, literacy, careers century by century — from castle to cottage to cabin to CTO. Plus DNA prehistory. |
 
 ---
 
