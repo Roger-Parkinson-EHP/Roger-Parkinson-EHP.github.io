@@ -258,8 +258,105 @@ MIGRATION WAVES IN YOUR TREE:
 
 - [Samuel Rose Parkinson — KWC8-PWD](https://www.familysearch.org/tree/person/details/KWC8-PWD) — The Lancashire immigrant
 - [Anna Maria Ostberg — KWC1-SVC](https://www.familysearch.org/tree/person/details/KWC1-SVC) — The Gotland emigrant
+- [Frederick Smart Parkinson — KWZW-GK9](https://www.familysearch.org/tree/person/details/KWZW-GK9) — Samuel's son, born in Franklin, Idaho
+- [Bessie Ann Doney — KWZW-GKS](https://www.familysearch.org/tree/person/details/KWZW-GKS) — The Cornwall → Idaho connection
+- [Thomas Edwin Ricks — L5DD-BBD](https://www.familysearch.org/tree/person/details/L5DD-BBD) — Founded Rexburg
+- [Amy Ricks Jaques — KWCP-K3Q](https://www.familysearch.org/tree/person/details/KWCP-K3Q) — Roger's great-grandmother, Ricks family line
 - [Roger Parkinson — PSX6-WCK](https://www.familysearch.org/tree/person/details/PSX6-WCK) — Where all the waves converged
 
 ---
 
-*Every ancestor who crossed that ocean made a bet: that the unknown was better than the known. For 72,182 of them, the bet paid off. You're the proof.*
+## Connect With Family & Cousins
+
+We're all related. If you share any of these family lines, there are communities of people researching the same ancestors. Here's how to find them.
+
+### DNA Matching — Find Living Relatives
+
+| Service | What It Does | Link |
+|---------|-------------|------|
+| **FamilySearch** | Free collaborative family tree. 1.5 billion records. Connect with anyone researching the same ancestors. | [familysearch.org](https://www.familysearch.org) |
+| **AncestryDNA** | DNA matching + records. 22 million people tested. Find cousins you never knew existed. | [ancestry.com/dna](https://www.ancestry.com/dna/) |
+| **23andMe** | DNA relatives matching. See shared ancestry percentages. | [23andme.com](https://www.23andme.com) |
+| **MyHeritage** | DNA matching + Smart Matches against global family trees. | [myheritage.com](https://www.myheritage.com) |
+| **GEDmatch** | Upload DNA from any service. Cross-platform matching. Free. | [gedmatch.com](https://www.gedmatch.com) |
+
+### Surname Societies & One-Name Studies
+
+| Family Name | Society / Resource | Link |
+|-------------|-------------------|------|
+| **Parkinson** | Parkinson Society | [Guild of One-Name Studies](https://one-name.org) — search for "Parkinson" |
+| **Doney** | Cornish Global Migration | [Cornwall Family History Society](https://cornwallfhs.com) |
+| **Ostberg** | Swedish Genealogical Society of Minnesota | [sgsmn.org](https://sgsmn.org) |
+| **Ricks** | Thomas E. Ricks descendants | Search [FamilySearch](https://www.familysearch.org/search/tree/results?q.surname=Ricks&q.birthLikePlace=Idaho) |
+| **Stewart/Stuart** | Clan Stewart Society | [clanstewartsociety.org](http://www.clanstewartsociety.org) |
+| **Douglas** | Clan Douglas Society | [clandouglassociety.org](https://www.clandouglassociety.org) |
+| **Maxwell** | Clan Maxwell Society | Search [ScotClans](https://www.scotclans.com/clan-maxwell/) |
+
+### Regional History Societies
+
+| Region | Society | Why It Matters | Link |
+|--------|---------|---------------|------|
+| **Lancashire** | Lancashire Family History & Heraldry Society | The Parkinson homeland — cotton mills, Pendle, Barrowford | [lfhhs.org.uk](https://www.lfhhs.org.uk) |
+| **Cornwall** | Cornwall Family History Society | The Doney/Cornish mining connection | [cornwallfhs.com](https://cornwallfhs.com) |
+| **Gotland** | Gotland Genealogy Society (Gotlands Släktforskarförening) | The Ostberg maternal line — 8 generations on the island | [genealogi.se](https://www.genealogi.se) |
+| **Scottish Borders** | Borders Family History Society | Scott, Maxwell, Turnbull, Stewart lines | [bordersfhs.org.uk](https://www.bordersfhs.org.uk) |
+| **Kent** | Kent Family History Society | The Rose/Chatham naval dockyard connection | [kfhs.org.uk](https://www.kfhs.org.uk) |
+| **Idaho** | Idaho Genealogical Society | Where it all converged | [idahogenealogy.org](https://www.idahogenealogy.org) |
+| **Utah** | Utah Genealogical Association | Pioneer settlement families | [ugagenealogy.org](https://ugagenealogy.org) |
+
+### Online Communities
+
+| Community | Focus | Link |
+|-----------|-------|------|
+| **r/Genealogy** | 270K+ members. Ask questions, share discoveries, get help breaking through brick walls. | [reddit.com/r/Genealogy](https://www.reddit.com/r/Genealogy/) |
+| **r/AncestryDNA** | DNA results discussion, ethnicity estimates, surprise matches | [reddit.com/r/AncestryDNA](https://www.reddit.com/r/AncestryDNA/) |
+| **r/23andme** | Haplogroup discussion, DNA painting, relative matching | [reddit.com/r/23andme](https://www.reddit.com/r/23andme/) |
+| **Facebook: Parkinson Family History** | Search Facebook for "Parkinson family history" or "Parkinson genealogy" | [facebook.com](https://www.facebook.com/search/groups/?q=parkinson%20family%20history) |
+| **Facebook: Cornish Diaspora** | "Cornish in America" and "Cousin Jacks" groups | [facebook.com](https://www.facebook.com/search/groups/?q=cornish%20diaspora) |
+| **Facebook: Swedish Genealogy** | "Swedish American Genealogy" groups | [facebook.com](https://www.facebook.com/search/groups/?q=swedish%20american%20genealogy) |
+| **Rootschat** | UK-focused genealogy forum. County-specific boards for Lancashire, Cornwall, etc. | [rootschat.com](https://www.rootschat.com) |
+| **WikiTree** | Free collaborative family tree. 35M+ profiles. Verified connections. | [wikitree.com](https://www.wikitree.com) |
+
+### Visit the Places
+
+| Place | What's There | How to Visit |
+|-------|-------------|-------------|
+| **Barrowford, Lancashire** | Pendle Heritage Centre, Pendle Witch Trail, cotton mill ruins, the packhorse bridge | [visitpendle.com](https://www.visitpendle.com) |
+| **Pendle Hill** | Walk the Pendle Witch Trail. Stand where the Parkinsons lived for 6 generations. | [pendle-witches.co.uk](http://www.pendle-witches.co.uk) |
+| **Queen Street Mill, Burnley** | Last steam-powered cotton weaving mill in the world. Working museum. | [lancashire.gov.uk/museums](https://www.lancashire.gov.uk/leisure-and-culture/museums/queen-street-mill-textile-museum/) |
+| **Cornwall tin mines** | Poldark Mine, Geevor Tin Mine Museum, Cornwall Mining World Heritage | [cornwall-mining.org.uk](https://www.cornwall-mining.org.uk) |
+| **Gotland, Sweden** | Visby medieval walls (UNESCO), Viking Museum, Spillings treasure, Hamra parish church | [gotland.com](https://gotland.com/en/) |
+| **Visby Medieval Week** | Every August. Medieval market, jousting, crafts. Your ancestors' world recreated. | [medeltidsveckan.se](https://medeltidsveckan.se/en/) |
+| **Franklin, Idaho** | Idaho's first permanent settlement (1860). Where Samuel Parkinson landed. | [franklinidaho.org](https://franklinidaho.org) |
+| **Rexburg, Idaho** | Founded by Thomas Edwin Ricks, 1883. BYU-Idaho campus. Teton Valley nearby. | [rexburg.org](https://rexburg.org) |
+
+### Records & Archives
+
+| Archive | What They Have | Link |
+|---------|---------------|------|
+| **FamilySearch** | 1.5 billion free records. The starting point for everything. | [familysearch.org](https://www.familysearch.org) |
+| **Lancashire Archives** | Parish registers, mill records, poor law records for Barrowford, Pendle, Burnley | [lancashire.gov.uk/archives](https://www.lancashire.gov.uk/libraries-and-archives/archives-and-record-office/) |
+| **Cornwall Record Office** | Mining records, parish registers, emigration records | [cornwall.gov.uk/archives](https://www.cornwall.gov.uk/leisure-and-culture/cornwall-record-office/) |
+| **National Archives (UK)** | Census, military, immigration, passenger lists | [nationalarchives.gov.uk](https://www.nationalarchives.gov.uk) |
+| **Riksarkivet (Sweden)** | Swedish church records, emigration records, Gotland parish records | [riksarkivet.se](https://riksarkivet.se/en) |
+| **Ellis Island Records** | Passenger manifests 1892-1957. Search for your ancestor's ship. | [libertyellisfoundation.org](https://www.libertyellisfoundation.org) |
+| **Findmypast** | British and Irish records, newspaper archives, census | [findmypast.com](https://www.findmypast.com) |
+| **Chronicling America** | Free US newspapers 1777-1963. Search for ancestor names, places, events. | [chroniclingamerica.loc.gov](https://chroniclingamerica.loc.gov) |
+
+---
+
+## Share This With Family
+
+If you're reading this, you share these ancestors. Everything that matches for Roger matches for his siblings, parents, and cousins. **We're all connected through this tree.**
+
+Ways to share:
+- **Send this link** to siblings, parents, cousins: `roger-parkinson-ehp.github.io/family/`
+- **Take a DNA test** and connect on FamilySearch, AncestryDNA, or 23andMe
+- **Join the communities** above — there are thousands of people researching these same families
+- **Visit the places** — walk where they walked. Stand in Barrowford. Climb Pendle Hill. See Gotland.
+
+**The tree has 72,182 names. Every one of them survived long enough to have children. Every link in that chain held. And that chain leads to us.**
+
+---
+
+*Every ancestor who crossed that ocean made a bet: that the unknown was better than the known. For 72,182 of them, the bet paid off. We're the proof.*

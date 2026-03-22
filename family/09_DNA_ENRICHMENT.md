@@ -311,6 +311,32 @@ flowchart TD
 
 ---
 
+## Watch & Explore
+
+### Documentaries
+- **[Doggerland: Europe's Lost World](https://www.youtube.com/watch?v=ogZ6lqCLir8)** — Animation showing how the land bridge between Britain and Europe submerged over 15,000 years. Your maternal haplogroup V traces to people who lived here after the Ice Age.
+- **The Pendle Witch Child** (BBC Four, 2011) — Simon Armitage narrates the 1612 witch trials in the village where your paternal Parkinson line lived
+- **[Henry VIII & Thomas Cromwell: The Real Wolf Hall](https://www.youtube.com/watch?v=yhxBhzkUeiQ)** — Documentary about Thomas Cromwell, who is in your family tree
+
+### Wikipedia Deep Dives — DNA
+- [Haplogroup R-M269](https://en.wikipedia.org/wiki/Haplogroup_R-M269) — Your paternal haplogroup's parent: carried by 80%+ of men in Ireland and Wales
+- [Haplogroup V (mtDNA)](https://en.wikipedia.org/wiki/Haplogroup_V_(mtDNA)) — Your maternal haplogroup: post-Ice Age expansion from Iberia
+- [Yamnaya culture](https://en.wikipedia.org/wiki/Yamnaya_culture) — The steppe nomads who carried your Y-DNA westward ~5,000 years ago
+- [Doggerland](https://en.wikipedia.org/wiki/Doggerland) — The lost land under the North Sea where your maternal ancestors may have hunted
+- [Niall of the Nine Hostages](https://en.wikipedia.org/wiki/Niall_of_the_Nine_Hostages) — Irish High King (~400 AD) connected to your paternal line, with 2-3 million living descendants
+
+### Wikipedia Deep Dives — Places
+- [Gotland](https://en.wikipedia.org/wiki/Gotland) — Your maternal line's island: Viking stronghold, Hanseatic hub, 9,000+ years of habitation
+- [Barrowford](https://en.wikipedia.org/wiki/Barrowford) — Your paternal line's village: cotton mills, Pendle witch country
+- [Rexburg, Idaho](https://en.wikipedia.org/wiki/Rexburg,_Idaho) — Where you were born — founded by your ancestor Thomas Edwin Ricks
+
+### FamilySearch Records
+- [Roger Parkinson — PSX6-WCK](https://www.familysearch.org/tree/person/details/PSX6-WCK) — The starting point
+- [Samuel Rose Parkinson — KWC8-PWD](https://www.familysearch.org/tree/person/details/KWC8-PWD) — The Lancashire immigrant
+- [Anna Maria Ostberg — KWC1-SVC](https://www.familysearch.org/tree/person/details/KWC1-SVC) — The Gotland emigrant
+
+---
+
 ## What This Prototype Proves
 
 1. **DNA + Records = Complete Story** — No other tool bridges both
