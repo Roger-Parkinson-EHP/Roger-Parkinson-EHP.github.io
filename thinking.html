@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roger Parkinson — thoughts on agentic engineering, DataOps, ontologies, and building systems that last.">
+    <title>What I think about — Roger Parkinson</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="enterprise.html">Enterprise</a>
+        <a href="startup.html">Startup</a>
+        <a href="consulting.html">Work with me</a>
+        <a href="thinking.html" class="active">Thinking</a>
+        <a href="books.html">Books</a>
+    </nav>
+
+    <main>
+        <header class="hero">
+            <h1>What I think about</h1>
+        </header>
+
+        <section>
+            <h2>The tools got better. The judgment didn't get cheaper.</h2>
+            <p>I keep coming back to this. Everybody's excited about how fast you can ship code with AI. And they should be. It's real. I build everything agentically now and the velocity is insane compared to five years ago.</p>
+            <p>But here's what I notice: the gap between "shipped code" and "shipped something that works in production for years" hasn't gotten smaller. If anything it got wider. Because now you can ship bad architecture faster than ever.</p>
+            <p>I spent 25 years watching things break in production at banks. I've been in depositions where attorneys picked apart my data. I built a quant fund where wrong code meant losing real money overnight. That kind of experience isn't something you can prompt your way into. It's pattern recognition that comes from getting burned and learning from it.</p>
+            <p>The tools dropped the cost of iteration. They didn't drop the cost of being wrong. If anything they raised it, because now you can be wrong at scale.</p>
+        </section>
+
+        <section>
+            <h2>DataOps is just accounting for your data</h2>
+            <p>Double-entry bookkeeping showed up in Venice around 1494. Before that, merchants were essentially winging it. After Pacioli wrote it down, every transaction got recorded twice. Debits and credits. If they don't balance, something broke. Simple idea. Changed everything.</p>
+            <p>I think DataOps is the same insight applied to operational data. When I was at Bank of America and Wells Fargo, I watched brilliant people struggle with data that lived in 47 different places and nobody could tell you which version was right. The problem wasn't the people. It was that nobody had built the equivalent of a chart of accounts for the data.</p>
+            <p>At Wells we built that. Metadata validation, lineage mapping, automated reconciliation. A small team ended up doing what 60 people used to do. Not because we worked harder. Because the system handled what used to be manual.</p>
+        </section>
+
+        <section>
+            <h2>Structure before agents</h2>
+            <p>I run 17 AI agents across my companies. Real agents, not chatbots. They manage task queues, execute in Git repos, and operate with approval-based governance.</p>
+            <p>The reason they work is boring. It's the ontology underneath them. Before I let any agent touch anything, I map the domain: what entities exist, how they relate, what the constraints are. Every agent operates on structured knowledge, not raw text.</p>
+            <p>Most companies I see are doing it the other way around. They throw an LLM at an unstructured problem and then wonder why the output is inconsistent. The fix isn't a better model. It's better structure.</p>
+            <p>I think the companies that figure this out in the next two years will have a serious advantage. And the ones that don't will keep building demos that break in production.</p>
+        </section>
+
+        <section>
+            <h2>What I read</h2>
+            <p>Jessica Talisman writes about ontology pipelines. She made the point that AI needs formal knowledge representation, not just metric layers. I agree. The companies investing in knowledge architecture now are the ones that will actually get AI to work at scale.</p>
+            <p>Steven Pressfield's War of Art. I think about resistance every day. The force that keeps you from doing the hard thing. Showing up and building is the only move. Turning pro means doing the work even when you don't feel like it.</p>
+            <p>Goldratt's The Goal. Every system has one constraint. Find it. Everything else is noise until you fix the bottleneck. I've applied this everywhere from mortgage operations to trading systems.</p>
+            <p>Lencioni's The Advantage. A healthy team with a mediocre strategy beats a dysfunctional team with a brilliant one. Every time. I've seen it play out at three different Fortune 500 companies.</p>
+        </section>
+
+        <section id="nav-bottom">
+            <p><a href="index.html">&larr; Home</a> | <a href="consulting.html">Work with me &rarr;</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <a href="mailto:roger.parkinson.career@gmail.com">roger.parkinson.career@gmail.com</a> |
+            <a href="https://linkedin.com/in/roger-parkinson">LinkedIn</a> |
+            <a href="https://github.com/Roger-Parkinson-EHP">GitHub</a> |
+            Camas, WA
+        </p>
+    </footer>
+</body>
+</html>
