@@ -136,6 +136,72 @@
     padding-top: 1.2rem;
     border-top: 1px solid var(--rule);
   }
+  /* Timeline */
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.15rem;
+    margin: 0.5rem 0 0.5rem;
+    padding: 0;
+    list-style: none;
+  }
+  .timeline li {
+    position: relative;
+    padding: 0.85rem 0.35rem 0.35rem;
+    border-top: 2px solid var(--rule);
+    font-size: 0.82rem;
+    line-height: 1.3;
+  }
+  .timeline li::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .timeline li:last-child::before {
+    background: var(--fg);
+    width: 14px;
+    height: 14px;
+    top: -8px;
+  }
+  .timeline-year {
+    display: block;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+  .timeline-where {
+    display: block;
+    color: var(--fg);
+    font-weight: 600;
+    margin-top: 0.1rem;
+  }
+  .timeline-what {
+    display: block;
+    color: var(--muted);
+    font-size: 0.78rem;
+    margin-top: 0.15rem;
+  }
+  @media (max-width: 640px) {
+    .timeline {
+      grid-template-columns: 1fr;
+      gap: 0.3rem;
+    }
+    .timeline li {
+      border-top: none;
+      border-left: 2px solid var(--rule);
+      padding: 0.25rem 0.5rem 0.25rem 1rem;
+    }
+    .timeline li::before {
+      top: 3px;
+      left: -7px;
+    }
+  }
   @media (max-width: 500px) {
     body { font-size: 16px; }
     main { padding: 2rem 1.1rem 4rem; }
@@ -163,6 +229,42 @@
     Camas, WA (Portland metro)
   </p>
 </header>
+
+<section>
+  <h2>The arc</h2>
+  <ol class="timeline">
+    <li>
+      <span class="timeline-year">1999-2004</span>
+      <span class="timeline-where">GE</span>
+      <span class="timeline-what">Six Sigma MBB. Origin of the loop.</span>
+    </li>
+    <li>
+      <span class="timeline-year">2004-2016</span>
+      <span class="timeline-where">Bank of America</span>
+      <span class="timeline-what">5 SVP roles. Mortgage crisis, 60-person team, depositions.</span>
+    </li>
+    <li>
+      <span class="timeline-year">2016-17</span>
+      <span class="timeline-where">Vacasa</span>
+      <span class="timeline-what">Sr Director Ops Systems.</span>
+    </li>
+    <li>
+      <span class="timeline-year">2019-22</span>
+      <span class="timeline-where">Wells Fargo</span>
+      <span class="timeline-what">VP Data Eng. 10x transformation. Platform still runs.</span>
+    </li>
+    <li>
+      <span class="timeline-year">2017-now</span>
+      <span class="timeline-where">EHP</span>
+      <span class="timeline-what">CTO. 3 humans, 17 agents, Sharpe ~4, 7 years live.</span>
+    </li>
+    <li>
+      <span class="timeline-year">Now</span>
+      <span class="timeline-where">In the market</span>
+      <span class="timeline-what">Plus treasury platform solo in 3 months (Dec 25-Mar 26).</span>
+    </li>
+  </ol>
+</section>
 
 <section>
   <h2>What I'm looking for</h2>
