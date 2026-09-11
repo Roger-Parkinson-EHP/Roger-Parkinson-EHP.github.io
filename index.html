@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Roger Parkinson — full-stack builder, 190K lines of code across 15 repos. CTO of a quant fund. Treasury, payments, AI/ML, agent orchestration.">
+    <meta name="description" content="Roger Parkinson. Agentic AI platforms, treasury and payments systems, regulated data platforms. Good models cannot compensate for bad context.">
     <title>Roger Parkinson</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,13 +23,13 @@
     <main>
         <header class="hero">
             <h1>Roger Parkinson</h1>
-            <p class="tagline">I build financial systems. The whole stack. About 190,000 lines of production code across 15 repos.</p>
+            <p class="tagline">I build financial systems and the agent platforms that work on them. The whole stack.</p>
         </header>
 
         <section id="arc">
             <h2>The short version</h2>
-            <p>I grew up on a potato farm in Idaho. I joined military intelligence. I spent 12 years at Bank of America and sat in depositions defending data during the mortgage crisis. I built a data platform at Wells Fargo where a small team replaced 60 people. Then I went underground for seven years and built a quant fund with three people.</p>
-            <p>A few months ago I built a treasury platform by myself. Three months. 40 database tables, 109 API endpoints, payments through JPMorgan's Wallet API, Stripe, Plaid, reconciliation engine. One person across the entire stack.</p>
+            <p>I grew up on a potato farm in Idaho. I joined military intelligence. I spent 12 years at Bank of America and sat in depositions defending data during the mortgage crisis. I built the credit risk data platform at Wells Fargo. Then I co-founded a quant fund with two partners and ran its technology for eight years.</p>
+            <p>This year I built a corporate treasury platform by myself in three months: double-entry ledger, payments through JPMorgan's API and Stripe, Plaid verification, reconciliation across all 23 ACH return codes. Then I spent the rest of the year on the problem underneath all of it: how an agent gets the context it needs to do real work.</p>
             <p>I like building things. I like it a lot.</p>
         </section>
 
@@ -38,24 +38,23 @@
             <div class="timeline">
                 <div class="beat">
                     <h3>Bank of America (2004&ndash;2016)</h3>
-                    <p>12 years, 5 SVP roles. Built a 60-person team during the mortgage crisis. Unified 47 data sources. Federal compliance from 70% to 95% in 30 days. I've been in depositions defending that data.</p>
+                    <p>12 years, 5 SVP roles. Recruited into the mortgage crisis under a federal MRA. Unified 47 data sources so a million modification decisions could be seen and moved. The standard was 95% of loans worked within 30 days of entering the process; we were at 70%, and closing that gap was the work. I was the primary data witness in the class action, and it was dismissed.</p>
                 </div>
                 <div class="beat">
                     <h3>Wells Fargo (2019&ndash;2022)</h3>
-                    <p>Credit risk data operations. A small team did the work of 60 people. 8-week reporting cycles became daily. 99.8% accuracy. The platform is still running years later.</p>
+                    <p>Credit risk data infrastructure. Metadata became the control plane: every execution validated against it, lineage and impact known at full coverage. Months between an idea and its execution became hours. 22,000+ transformations a day. The platform is still running years later.</p>
                 </div>
                 <div class="beat">
-                    <h3>Event Horizon Partners (2017&ndash;present)</h3>
-                    <p>My quant fund. 3 people built the whole thing from scratch. Trading infrastructure, ML models across every paradigm. Top-percentile risk-adjusted returns over 7 years. 99.9% uptime. NFA-registered (Pool ID P169101).</p>
-                    <p class="disclosure"><small>Past performance is not necessarily indicative of future results. Trading commodity futures involves substantial risk of loss. Performance figures are net of all fees including 2% management fee and 30% performance allocation.</small></p>
+                    <h3>Event Horizon Partners (2017&ndash;2026)</h3>
+                    <p>Co-founder and CTO of a systematic futures fund, now closed. Three people built the whole thing: streaming market data into BigQuery, a decision-science framework of continuous experimentation, champion versus challenger promotion, stability gates and walk-forward testing, and automated execution under NFA governance. Near-random data is the hardest test I know of whether a platform works.</p>
                 </div>
                 <div class="beat">
                     <h3>Treasury platform (2025&ndash;2026)</h3>
-                    <p>Built from scratch in 3 months. Double-entry ledger, JPMorgan Wallet API, Stripe, Plaid, reconciliation. 40 tables, 109 endpoints, about 24K lines of Python. Full CI/CD with GitHub Actions, three-environment promotion, Terraform. Comprehensive documentation and a built-in library so a team can pick it up and run with it. One person, end to end.</p>
+                    <p>Built from scratch in 3 months, solo. Double-entry ledger, 31 tables, multi-rail money movement through JPMorgan and Stripe, Plaid verification, approval workflows, affiliate distribution, reconciliation with auto-reversal across all 23 ACH return codes. One domain model served three ways: a front end for people, a workflow engine, and an MCP server plus CLI for agents. Terraform, GitHub Actions, three-environment promotion.</p>
                 </div>
                 <div class="beat">
                     <h3>How I work now</h3>
-                    <p>I run 17 AI agents across my projects. Not chatbots. Agents that manage task queues, execute in repos, and operate with approval-based governance. I built the orchestration platform myself, including a custom React UI with 116 components. It's the Jarvis pattern: distribute agentic capabilities across your work so you can operate at a scale that would normally require a much bigger team.</p>
+                    <p>Good models cannot compensate for bad context. I build and run my own agentic platform, locally: Anthropic and OpenAI agents work the same problem in parallel, every change lands as a pull request with its tests, and every conversation, pull request, doc and code change is captured continuously into a linked, queryable record with a code graph beside it. An agent pulls a bounded picture of the problem into context the same way every session, every answer says what it covers and how fresh it is, and a fixed probe set scores retrieval before and after every change. The most important unsolved problem in this field is how an enterprise feeds its intellectual capital to agents in the most consumable form. That is what I work on.</p>
                 </div>
             </div>
         </section>

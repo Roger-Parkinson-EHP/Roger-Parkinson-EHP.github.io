@@ -37,14 +37,14 @@
             <h2>DataOps is just accounting for your data</h2>
             <p>Double-entry bookkeeping showed up in Venice around 1494. Before that, merchants were essentially winging it. After Pacioli wrote it down, every transaction got recorded twice. Debits and credits. If they don't balance, something broke. Simple idea. Changed everything.</p>
             <p>I think DataOps is the same insight applied to operational data. When I was at Bank of America and Wells Fargo, I watched brilliant people struggle with data that lived in 47 different places and nobody could tell you which version was right. The problem wasn't the people. It was that nobody had built the equivalent of a chart of accounts for the data.</p>
-            <p>At Wells we built that. Metadata validation, lineage mapping, automated reconciliation. A small team ended up doing what 60 people used to do. Not because we worked harder. Because the system handled what used to be manual.</p>
+            <p>At Wells we built that. Metadata validation, lineage mapping, automated reconciliation. Months between an idea and its execution became hours. Not because we worked harder. Because the system handled what used to be manual.</p>
         </section>
 
         <section>
-            <h2>Structure before agents</h2>
-            <p>I run 17 AI agents across my companies. Real agents, not chatbots. They manage task queues, execute in Git repos, and operate with approval-based governance.</p>
-            <p>The reason they work is boring. It's the ontology underneath them. Before I let any agent touch anything, I map the domain: what entities exist, how they relate, what the constraints are. Every agent operates on structured knowledge, not raw text.</p>
-            <p>Most companies I see are doing it the other way around. They throw an LLM at an unstructured problem and then wonder why the output is inconsistent. The fix isn't a better model. It's better structure.</p>
+            <h2>Good models cannot compensate for bad context</h2>
+            <p>Models are a commodity now. Harnesses are a commodity. The context an organization has accumulated is not, and most of it is hidden from the agents behind an obstacle course of tool calls. An agent that reads files comes up to speed in a different order every session and stops when it judges it has enough, without knowing what it is missing.</p>
+            <p>The fix is a graph: objects, links, actions, decision lineage. The conversation that led to the pull request that changed the code that shipped, captured continuously and queryable in one shape. The agent arrives oriented, can see what it has not looked at, and every answer says what it covers and how fresh it is. Then you measure it: how long an agent takes to get the full picture, and the quality of its feedback loop from there.</p>
+            <p>Most companies are doing it the other way around. They throw an LLM at an unstructured problem and wonder why the output is inconsistent. The fix isn't a better model. It's better context, and it can be measured.</p>
             <p>I think the companies that figure this out in the next two years will have a serious advantage. And the ones that don't will keep building demos that break in production.</p>
         </section>
 
