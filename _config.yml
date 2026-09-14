@@ -1,16 +1,1 @@
 title: "Roger Parkinson"
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    disable: true
-
-defaults:
-  - scope:
-      path: "family"
-    values:
-      layout: "default"
-  - scope:
-      path: "family/index.md"
-    values:
-      layout: "default"

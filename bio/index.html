@@ -214,59 +214,21 @@
     .pitch { background: #f0f0f0; }
     a { color: #000; border-bottom: none; }
   }
-</style>
-</head>
-<body>
-<main>
-
-<header>
+  nav.jump { font-size: 0.85rem;<header>
   <h1>Roger Parkinson</h1>
   <p class="tagline">Good models cannot compensate for bad context.</p>
   <p class="meta">
-    Agentic AI platform leader. 25 years of data platforms inside regulated finance. &middot;
+    I build data platforms, financial systems and the agent platforms that work on them. 25 years inside regulated finance. &middot;
     <a href="mailto:roger.parkinson.career@gmail.com">roger.parkinson.career@gmail.com</a> &middot;
     <a href="https://www.linkedin.com/in/roger-parkinson">LinkedIn</a> &middot;
     Camas, WA (Portland metro)
   </p>
+  <nav class="jump">
+    <a href="#problem">The problem</a><a href="#arc">The arc</a><a href="#now">Building now</a><a href="#built">What I've built</a><a href="#how">How I work</a><a href="#thinking">What I think about</a><a href="#work-with-me">Work with me</a><a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section>
-  <h2>The arc</h2>
-  <ol class="timeline">
-    <li>
-      <span class="timeline-year">2000-2004</span>
-      <span class="timeline-where">GE</span>
-      <span class="timeline-what">Six Sigma Master Black Belt. Applied statistics against live process data.</span>
-    </li>
-    <li>
-      <span class="timeline-year">2004-2016</span>
-      <span class="timeline-where">Bank of America</span>
-      <span class="timeline-what">SVP roles. Unified 47 data sources under a federal MRA. Primary data witness; class action dismissed.</span>
-    </li>
-    <li>
-      <span class="timeline-year">2019-2022</span>
-      <span class="timeline-where">Wells Fargo</span>
-      <span class="timeline-what">Credit risk data infrastructure. Metadata as the control plane. Months to hours.</span>
-    </li>
-    <li>
-      <span class="timeline-year">2017-2026</span>
-      <span class="timeline-where">Event Horizon Partners</span>
-      <span class="timeline-what">Co-founder and CTO of a systematic futures fund, now closed. Eight years of automated systems under NFA governance.</span>
-    </li>
-    <li>
-      <span class="timeline-year">Dec 2025-Mar 2026</span>
-      <span class="timeline-where">Treasury platform</span>
-      <span class="timeline-what">Solo, three months. Ledger, JPMorgan and Stripe rails, all 23 ACH return codes, served to people and agents.</span>
-    </li>
-    <li>
-      <span class="timeline-year">2026</span>
-      <span class="timeline-where">CatalystFire</span>
-      <span class="timeline-what">A local agentic platform, and a measurement harness for how context changes what agents produce.</span>
-    </li>
-  </ol>
-</section>
-
-<section>
+<section id="problem">
   <h2>The problem I work on</h2>
   <div class="pitch">
     The most important unsolved problem in this field is how an enterprise feeds its intellectual capital to agents in the most consumable form. Models and harnesses are commodities; the context an organization has accumulated is not, and the question every organization has to ask is how much of it they are hiding from their agents behind an obstacle course of tool calls instead of a query.
@@ -276,47 +238,98 @@
   </p>
 </section>
 
-<section>
-  <h2>Three receipts</h2>
+<section id="arc">
+  <h2>The arc</h2>
+  <p>I grew up on a potato farm in Idaho and served in the Army National Guard as a military intelligence linguist. Then GE, twelve years at Bank of America, Wells Fargo, a quant fund I co-founded, a treasury platform, and now my own agentic platform.</p>
+  <ol class="timeline">
+    <li><span class="timeline-year">2000-2004</span><span class="timeline-where">GE</span><span class="timeline-what">Six Sigma Master Black Belt. Applied statistics against live process data.</span></li>
+    <li><span class="timeline-year">2004-2016</span><span class="timeline-where">Bank of America</span><span class="timeline-what">SVP roles. Unified 47 data sources under a federal MRA. Primary data witness; class action dismissed.</span></li>
+    <li><span class="timeline-year">2019-2022</span><span class="timeline-where">Wells Fargo</span><span class="timeline-what">Credit risk data infrastructure. Metadata as the control plane. Months to hours.</span></li>
+    <li><span class="timeline-year">2017-2026</span><span class="timeline-where">Event Horizon Partners</span><span class="timeline-what">Co-founder and CTO of a systematic futures fund, now closed.</span></li>
+    <li><span class="timeline-year">Dec 2025-Mar 2026</span><span class="timeline-where">Treasury platform</span><span class="timeline-what">Solo, three months. Ledger, JPMorgan and Stripe rails, all 23 ACH return codes.</span></li>
+    <li><span class="timeline-year">2026</span><span class="timeline-where">CatalystFire</span><span class="timeline-what">My agentic platform, and the products built on it: AncestralFire and VoiceCatalyst.</span></li>
+  </ol>
+</section>
+
+<section id="now">
+  <h2>Building now</h2>
   <ul class="receipts">
     <li>
       <p class="receipt-headline">CatalystFire, 2026</p>
-      <p class="receipt-body">An agentic platform built and run solo, locally. Anthropic and OpenAI agents work the same problem in parallel in isolated worktrees, every change lands as a pull request with its tests, and high-stakes changes are reviewed by a different model family than the one that wrote them. Policy enforced in the runtime. VoiceCatalyst, a second product on the platform: speech into agents on NVIDIA Nemotron models running locally, with context pulled live from the screen so domain vocabulary lands correctly.</p>
+      <p class="receipt-body">An agentic platform built and run solo, locally. Anthropic and OpenAI agents work the same problem in parallel in isolated worktrees, every change lands as a pull request with its tests, and high stakes changes are reviewed by a different model family than the one that wrote them. Underneath is the context layer described above, on QMD and GitNexus, with a fixed probe set scoring every change.</p>
     </li>
+    <li>
+      <p class="receipt-headline"><a href="https://ancestral-fire.com">AncestralFire</a>, in beta</p>
+      <p class="receipt-body">Family history, told as stories. A family tree file becomes a graph inside each subscriber's own isolated agent; every ancestor is enriched from sources measured one by one (the Wikidata graph, period texts such as the 1911 Britannica, Europeana's national collections, the UK National Archives, historic newspapers, a gazetteer of places as they existed at the time); and the agent tells their story as a letter, a pedigree, a relationship graph or a migration map, always separating sourced fact from inference. Being rebuilt MCP first, so the same agent works inside Claude, ChatGPT and the web app. Cloudflare Workers, Durable Objects, Vectorize and Workers AI.</p>
+    </li>
+    <li>
+      <p class="receipt-headline"><a href="https://voice-catalyst.com">VoiceCatalyst</a></p>
+      <p class="receipt-body">Speech into agents, about four times faster than typing, on local models, on the Mac and the iPhone. A wrong word becomes a wrong instruction, so the fix is data rather than acoustics: context harvested live and the person's own vocabulary and corrections are substituted in real time, lifting accuracy by up to 20 points in my benchmarks, most on smaller models.</p>
+    </li>
+  </ul>
+</section>
+
+<section id="built">
+  <h2>What I've built</h2>
+  <ul class="receipts">
     <li>
       <p class="receipt-headline">Corporate treasury platform, December 2025 to March 2026</p>
-      <p class="receipt-body">Principal Engineer, contract, for a business-licensing compliance company. Solo, in three months: a double-entry ledger across 31 tables, multi-rail money movement through JPMorgan and Stripe, approval workflows, affiliate distribution, and reconciliation with auto-reversal across all 23 ACH return codes. One domain model served three ways: a front end for humans, a workflow engine, and an MCP server plus CLI for agents. Infrastructure first: Terraform with least-privilege permissions, three-environment promotion, weekly progress to leadership.</p>
+      <p class="receipt-body">Principal Engineer, contract, for a business licensing compliance company. Solo, in three months: a double entry, immutable ledger across 31 tables; multi rail money movement (ACH, wire, RTP) through JPMorgan's API with virtual accounts, and Stripe; a two phase payment pattern that keeps the ledger consistent when a provider call fails; approval workflows and affiliate distribution; reconciliation one to one, one to many and many to one, with all 23 ACH return codes matched to the original payment and reversed automatically. One domain model served three ways: a front end for people, a workflow engine, and an MCP server plus CLI for agents. Infrastructure first: Terraform and Bazel, least privilege permissions, three environment promotion, weekly progress to leadership.</p>
     </li>
     <li>
-      <p class="receipt-headline">Regulated banks, 2004 to 2022</p>
-      <p class="receipt-body">Bank of America: recruited into the aftermath of the Countrywide acquisition, under an MRA, where no unified loan modification process existed. Unified 47 federated data sources behind over a million modification decisions; the daily report moved the work for 15,000 associates. The standard was 95% of loans worked within 30 days of entering the process against 70% actual, and closing that gap was the hard part. Primary data witness in the class action; it held, and the case was dismissed. Wells Fargo: credit risk data infrastructure where metadata became the control plane, 22,000+ transformations a day, and months between an idea and its execution became hours.</p>
+      <p class="receipt-headline">Event Horizon Partners, 2017 to 2026</p>
+      <p class="receipt-body">Co-founder and CTO of a systematic futures fund, with two partners; now closed. An unrestricted learning lab: real time market data streamed through the decision engine in under a millisecond and straight into BigQuery, every trade and decision kept so each model version trained on the last one's exhaust. Continuous experimentation, champion versus challenger promotion, stability gates, walk forward and regime testing, strict train and out of sample separation. Supervised and unsupervised models, clustering and hidden Markov models for regimes, reinforcement learning, and hyperparameter and multi objective search with Optuna and Ray Tune. Near random data is the hardest test I know of whether a platform actually works.</p>
+    </li>
+    <li>
+      <p class="receipt-headline">Wells Fargo, 2019 to 2022</p>
+      <p class="receipt-body">Recruited to upgrade credit risk's data platform so the bank could improve its automated decisioning. With a team of three, I shifted metadata and security left until metadata became the control plane: every execution validated against it, lineage and impact known at full coverage, audit evidence from one mechanism instead of four. The commercial tools were never going to be approved, so we built dbt style transformation and orchestration out of SAS and shell. 22,000+ column level transformations a day; months between an idea and its execution became hours; still running years after I left.</p>
+    </li>
+    <li>
+      <p class="receipt-headline">Bank of America, 2004 to 2016</p>
+      <p class="receipt-body">Recruited after the Countrywide acquisition, when loan modifications could not get through the system. I sat with the people doing the work until I understood it, unified 47 federated data sources behind over a million modification decisions, and built a numbered taxonomy of every step. The daily report became the process and moved the work of 15,000 associates for years. The standard was 95% of loans worked within 30 days against 70% actual, and closing that gap was the hard part. I was the primary data witness in the class action; it held, and the case was dismissed.</p>
+    </li>
+    <li>
+      <p class="receipt-headline">GE, 2000 to 2004</p>
+      <p class="receipt-body">Six Sigma Master Black Belt. Design of experiments and statistical process control against live process data, and I certified hundreds of people so improvement never depended on me being in the room.</p>
     </li>
   </ul>
 </section>
 
-<section>
-  <h2>How I get there</h2>
+<section id="how">
+  <h2>How I work</h2>
   <ul class="day-one">
-    <li>Proof of concept first, then production. That is how the fund's whole platform was built and how the treasury platform shipped in three months.</li>
+    <li>Proof of concept first, then production. That is how the fund's platform was built and how the treasury platform shipped in three months.</li>
+    <li>I write the code. I learn the work at the level of the people doing it, build the first version myself, then build the team that runs it.</li>
     <li>Context curated into a graph, so the agent queries once instead of scrambling through tool calls.</li>
-    <li>Measured, not asserted: probe sets before and after every change, ablations that reproduce.</li>
-    <li>Compliance treated as deterministic: it can be 100 percent, so be excellent at it and spend the freed attention on the probabilistic work.</li>
-    <li>Full-stack shipping with no handoff: Python, TypeScript, C#, SQL; PostgreSQL, BigQuery, DuckDB; Terraform, GitHub Actions; GCP, AWS, Cloudflare.</li>
+    <li>Measured, not asserted: probe sets before and after every change, and ablations that reproduce.</li>
     <li>Evaluation, provenance and guardrails built in at the start. Bolted on at the end they are theater, and theater costs you your speed.</li>
+    <li>Stack: Python, TypeScript, Swift, C#, SQL; PostgreSQL, BigQuery, DuckDB; Terraform, Bazel, GitHub Actions; GCP, AWS, Cloudflare.</li>
   </ul>
 </section>
 
-<section>
-  <h2>Where I fit</h2>
-  <p>
-    Enterprise agentic AI platforms. Fintechs building payments or treasury infrastructure. Fast-scaling engineering orgs past MVP. Regulated finance with real transformation intent. Full-time, contract or fractional; remote, hybrid or travel all work.
-  </p>
+<section id="thinking">
+  <h2>What I think about</h2>
+  <p><strong>The tools got better. The judgment didn't get cheaper.</strong> AI dropped the cost of iteration. It didn't drop the cost of being wrong; now you can be wrong at scale. Twenty five years of watching things break in production at banks, and a fund where wrong code lost real money overnight, is pattern recognition you can't prompt your way into.</p>
+  <p><strong>DataOps is accounting for your data.</strong> Double entry bookkeeping recorded every transaction twice, and if the books didn't balance, something broke. Most data estates never built the equivalent of a chart of accounts. At Wells Fargo we did: metadata validation, lineage and automated reconciliation.</p>
+  <p id="reading"><strong>Books that shaped how I build:</strong> Goldratt's <em>The Goal</em> (find the one constraint; optimizing anything else is waste), Lencioni's <em>The Advantage</em> (a healthy team beats a smart one), Ridley's <em>The Evolution of Everything</em> (let systems evolve), and Pressfield's <em>The War of Art</em> (show up and do the work).</p>
 </section>
 
-<section>
+<section id="work-with-me">
+  <h2>Work with me</h2>
+  <p>Full time: VP Data Engineering, Head of Platform, CTO, Principal or Distinguished Engineer, engineering manager who still builds. Contract and fractional work too, and I can start now. Remote, hybrid or 100% travel all work.</p>
+  <p class="rates">Rates on request.</p>
+</section>
+
+<section id="contact">
   <h2>Contact</h2>
   <p class="contact-line contact"><a href="mailto:roger.parkinson.career@gmail.com">roger.parkinson.career@gmail.com</a></p>
   <p class="contact-line contact"><a href="https://www.linkedin.com/in/roger-parkinson">linkedin.com/in/roger-parkinson</a></p>
+  <p class="contact-line contact"><a href="https://github.com/Roger-Parkinson-EHP">github.com/Roger-Parkinson-EHP</a></p>
+  <p class="contact-line contact">480.201.0663</p>
+  <p class="contact-line contact">Camas, WA &middot; US citizen &middot; no sponsorship required</p>
+</section>
+
+/in/roger-parkinson</a></p>
   <p class="contact-line contact"><a href="https://github.com/Roger-Parkinson-EHP">github.com/Roger-Parkinson-EHP</a></p>
   <p class="contact-line contact">480.201.0663</p>
   <p class="contact-line contact">Camas, WA &middot; US citizen &middot; no sponsorship required</p>
