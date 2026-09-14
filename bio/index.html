@@ -8,216 +8,51 @@
 <meta property="og:title" content="Roger Parkinson">
 <meta property="og:description" content="Good models cannot compensate for bad context. Agentic platforms, treasury systems, regulated data.">
 <meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #ffffff;
-    --fg: #1a1a1a;
-    --muted: #5a5a5a;
-    --rule: #e6e6e6;
-    --accent: #1a4d8c;
-    --code-bg: #f6f6f4;
+  :root { --bg:#fbfaf7; --fg:#191919; --muted:#5f5d58; --rule:#e4e1da; --accent:#1f4e8c; --accent-soft:#eaf0f8; --card:#ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111110; --fg:#ebe9e3; --muted:#a09d95; --rule:#2b2a27; --accent:#7fb0e6; --accent-soft:#1a2330; --card:#171716; } }
+  * { box-sizing:border-box; } html { scroll-behavior:smooth; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:Inter,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif; font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased; }
+  main { max-width:46rem; margin:0 auto; padding:4rem 1.5rem 6rem; }
+  header { margin-bottom:3.5rem; }
+  h1 { font-family:"Source Serif 4",Georgia,serif; font-size:3rem; font-weight:600; letter-spacing:-0.01em; line-height:1.05; margin:0 0 0.75rem; }
+  .tagline { font-family:"Source Serif 4",Georgia,serif; font-style:italic; font-size:1.45rem; color:var(--fg); margin:0 0 1.25rem; line-height:1.3; }
+  .meta { font-size:0.95rem; color:var(--muted); margin:0; line-height:1.7; }
+  .meta a, .contact a, .receipt-headline a { color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; }
+  .meta a:hover, .contact a:hover, .receipt-headline a:hover { border-bottom-color:var(--accent); }
+  nav.jump { margin:1.75rem 0 0; padding-top:1rem; border-top:1px solid var(--rule); display:flex; flex-wrap:wrap; gap:0.35rem 1.25rem; font-size:0.86rem; font-weight:500; }
+  nav.jump a { color:var(--muted); text-decoration:none; } nav.jump a:hover { color:var(--accent); }
+  section { margin:0 0 3.25rem; }
+  h2 { font-family:"Source Serif 4",Georgia,serif; font-size:1.6rem; font-weight:600; letter-spacing:-0.01em; margin:0 0 1.1rem; padding-bottom:0.5rem; border-bottom:2px solid var(--fg); }
+  p { margin:0 0 1rem; }
+  .pitch { font-family:"Source Serif 4",Georgia,serif; font-size:1.25rem; line-height:1.45; padding:0 0 0 1.25rem; border-left:4px solid var(--accent); margin:0 0 1.25rem; }
+  .lead { color:var(--muted); font-size:1.02rem; }
+  /* left-labelled entries: arc, built */
+  ol.timeline, ul.receipts { list-style:none; margin:0; padding:0; }
+  ol.timeline li, ul.receipts li { display:grid; grid-template-columns:9.5rem 1fr; gap:0 1.5rem; padding:0.9rem 0; border-top:1px solid var(--rule); }
+  ol.timeline li:first-child, ul.receipts li:first-child { border-top:none; padding-top:0; }
+  .timeline-year, .receipt-when { font-size:0.85rem; color:var(--muted); font-variant-numeric:tabular-nums; padding-top:0.2rem; }
+  .timeline-where { display:block; font-weight:600; }
+  .timeline-what { display:block; color:var(--muted); font-size:0.97rem; }
+  .receipt-headline { font-weight:600; margin:0 0 0.3rem; font-size:1.05rem; }
+  .receipt-body { margin:0; font-size:0.98rem; color:var(--fg); }
+  /* building now: three product cards */
+  .products { display:grid; grid-template-columns:1fr; gap:1rem; margin:0; padding:0; list-style:none; }
+  .products li { display:block; background:var(--card); border:1px solid var(--rule); border-radius:6px; padding:1.1rem 1.25rem; }
+  .products .receipt-headline { font-size:1.15rem; margin-bottom:0.4rem; }
+  .products .receipt-headline small { font-weight:500; color:var(--muted); font-size:0.85rem; margin-left:0.5rem; }
+  ul.day-one { list-style:none; padding:0; margin:0; }
+  ul.day-one li { padding:0.55rem 0 0.55rem 1.5rem; position:relative; }
+  ul.day-one li::before { content:"→"; position:absolute; left:0; color:var(--accent); font-weight:600; }
+  .contact-line { margin:0.35rem 0; } .rates { color:var(--muted); font-size:0.95rem; }
+  strong { font-weight:600; }
+  @media (max-width:640px) {
+    main { padding:2.5rem 1.15rem 4rem; } h1 { font-size:2.3rem; } .tagline { font-size:1.2rem; } body { font-size:16px; }
+    ol.timeline li, ul.receipts li { grid-template-columns:1fr; gap:0.15rem; }
   }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #0f0f0f;
-      --fg: #e8e8e6;
-      --muted: #9a9a96;
-      --rule: #2a2a28;
-      --accent: #6ea0d6;
-      --code-bg: #1a1a18;
-    }
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--fg);
-    line-height: 1.55;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    font-size: 17px;
-  }
-  main {
-    max-width: 38rem;
-    margin: 0 auto;
-    padding: 3rem 1.5rem 6rem;
-  }
-  header { margin-bottom: 3rem; }
-  h1 {
-    font-size: 2.15rem;
-    letter-spacing: -0.02em;
-    margin: 0 0 0.5rem;
-    font-weight: 600;
-    line-height: 1.15;
-  }
-  .tagline {
-    font-size: 1.2rem;
-    color: var(--muted);
-    margin: 0 0 1rem;
-    font-weight: 400;
-  }
-  .meta {
-    font-size: 0.93rem;
-    color: var(--muted);
-    margin: 0;
-  }
-  .meta a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
-  .meta a:hover { border-bottom-style: solid; }
-  section { margin: 2.5rem 0; }
-  h2 {
-    font-size: 0.82rem;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--muted);
-    font-weight: 600;
-    border-bottom: 1px solid var(--rule);
-    padding-bottom: 0.4rem;
-    margin: 0 0 1.2rem;
-  }
-  p { margin: 0 0 1rem; }
-  p.lead { font-size: 1.08rem; }
-  .pitch {
-    padding: 1.2rem 1.4rem;
-    border-left: 3px solid var(--accent);
-    background: var(--code-bg);
-    margin: 1.5rem 0;
-    font-size: 1.02rem;
-  }
-  ul.receipts { list-style: none; padding: 0; margin: 0; }
-  ul.receipts li {
-    padding: 1rem 0;
-    border-bottom: 1px solid var(--rule);
-  }
-  ul.receipts li:last-child { border-bottom: none; }
-  .receipt-headline {
-    font-weight: 600;
-    margin: 0 0 0.3rem;
-    font-size: 1.02rem;
-  }
-  .receipt-body {
-    font-size: 0.98rem;
-    color: var(--muted);
-    margin: 0;
-  }
-  ul.day-one {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  ul.day-one li {
-    padding: 0.7rem 0 0.7rem 1.4rem;
-    position: relative;
-    font-size: 0.98rem;
-  }
-  ul.day-one li::before {
-    content: "→";
-    position: absolute;
-    left: 0;
-    color: var(--accent);
-    font-weight: 600;
-  }
-  .contact {
-    font-size: 1rem;
-    margin: 1rem 0;
-  }
-  .contact a {
-    color: var(--accent);
-    text-decoration: none;
-    border-bottom: 1px dotted var(--accent);
-  }
-  .contact a:hover { border-bottom-style: solid; }
-  .contact-line { margin: 0.3rem 0; }
-  .fine-print {
-    font-size: 0.88rem;
-    color: var(--muted);
-    margin-top: 3rem;
-    padding-top: 1.2rem;
-    border-top: 1px solid var(--rule);
-  }
-  /* Timeline */
-  .timeline {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 0.15rem;
-    margin: 0.5rem 0 0.5rem;
-    padding: 0;
-    list-style: none;
-  }
-  .timeline li {
-    position: relative;
-    padding: 0.85rem 0.35rem 0.35rem;
-    border-top: 2px solid var(--rule);
-    font-size: 0.82rem;
-    line-height: 1.3;
-  }
-  .timeline li::before {
-    content: "";
-    position: absolute;
-    top: -7px;
-    left: 0;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: var(--accent);
-  }
-  .timeline li:last-child::before {
-    background: var(--fg);
-    width: 14px;
-    height: 14px;
-    top: -8px;
-  }
-  .timeline-year {
-    display: block;
-    color: var(--muted);
-    font-variant-numeric: tabular-nums;
-    font-size: 0.78rem;
-    font-weight: 600;
-  }
-  .timeline-where {
-    display: block;
-    color: var(--fg);
-    font-weight: 600;
-    margin-top: 0.1rem;
-  }
-  .timeline-what {
-    display: block;
-    color: var(--muted);
-    font-size: 0.78rem;
-    margin-top: 0.15rem;
-  }
-  @media (max-width: 640px) {
-    .timeline {
-      grid-template-columns: 1fr;
-      gap: 0.3rem;
-    }
-    .timeline li {
-      border-top: none;
-      border-left: 2px solid var(--rule);
-      padding: 0.25rem 0.5rem 0.25rem 1rem;
-    }
-    .timeline li::before {
-      top: 3px;
-      left: -7px;
-    }
-  }
-  @media (max-width: 500px) {
-    body { font-size: 16px; }
-    main { padding: 2rem 1.1rem 4rem; }
-    h1 { font-size: 1.75rem; }
-    .tagline { font-size: 1.05rem; }
-  }
-  @media print {
-    body { font-size: 11pt; color: #000; background: #fff; }
-    main { max-width: 100%; padding: 0.4in; }
-    .pitch { background: #f0f0f0; }
-    a { color: #000; border-bottom: none; }
-  }
-  nav.jump { font-size: 0.85rem; margin: 1rem 0 0; display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; }
-  nav.jump a { color: var(--muted); text-decoration: none; text-transform: uppercase; letter-spacing: 0.08em; }
-  nav.jump a:hover { color: var(--accent); }
-  .rates { font-size: 0.95rem; color: var(--muted); }
+  @media print { body { background:#fff; color:#000; font-size:11pt; } main { max-width:100%; padding:0.4in; } a { color:#000; } }
 </style>
 </head>
 <body>
@@ -226,7 +61,7 @@
 <header>
   <h1>Roger Parkinson</h1>
   <p class="tagline">Good models cannot compensate for bad context.</p>
-  <p class="meta">
+  <p class="meta lead">
     I build data platforms, financial systems and the agent platforms that work on them. 25 years inside regulated finance. &middot;
     <a href="mailto:roger.parkinson.career@gmail.com">roger.parkinson.career@gmail.com</a> &middot;
     <a href="https://www.linkedin.com/in/roger-parkinson">LinkedIn</a> &middot;
@@ -251,28 +86,28 @@
   <h2>The arc</h2>
   <p>I grew up on a potato farm in Idaho and served in the Army National Guard as a military intelligence linguist. Then GE, twelve years at Bank of America, Wells Fargo, a quant fund I co-founded, a treasury platform, and now my own agentic platform.</p>
   <ol class="timeline">
-    <li><span class="timeline-year">2000-2004</span><span class="timeline-where">GE</span><span class="timeline-what">Six Sigma Master Black Belt. Applied statistics against live process data.</span></li>
-    <li><span class="timeline-year">2004-2016</span><span class="timeline-where">Bank of America</span><span class="timeline-what">SVP roles. Unified 47 data sources under a federal MRA. Primary data witness; class action dismissed.</span></li>
-    <li><span class="timeline-year">2019-2022</span><span class="timeline-where">Wells Fargo</span><span class="timeline-what">Credit risk data infrastructure. Metadata as the control plane. Months to hours.</span></li>
-    <li><span class="timeline-year">2017-2026</span><span class="timeline-where">Event Horizon Partners</span><span class="timeline-what">Co-founder and CTO of a systematic futures fund, now closed.</span></li>
-    <li><span class="timeline-year">Dec 2025-Mar 2026</span><span class="timeline-where">Treasury platform</span><span class="timeline-what">Solo, three months. Ledger, JPMorgan and Stripe rails, all 23 ACH return codes.</span></li>
-    <li><span class="timeline-year">2026</span><span class="timeline-where">CatalystFire</span><span class="timeline-what">My agentic platform, and the products built on it: AncestralFire and VoiceCatalyst.</span></li>
+    <li><span class="timeline-year">2000-2004</span><span><span class="timeline-where">GE</span><span class="timeline-what">Six Sigma Master Black Belt. Applied statistics against live process data.</span></span></li>
+    <li><span class="timeline-year">2004-2016</span><span><span class="timeline-where">Bank of America</span><span class="timeline-what">SVP roles. Unified 47 data sources under a federal MRA. Primary data witness; class action dismissed.</span></span></li>
+    <li><span class="timeline-year">2019-2022</span><span><span class="timeline-where">Wells Fargo</span><span class="timeline-what">Credit risk data infrastructure. Metadata as the control plane. Months to hours.</span></span></li>
+    <li><span class="timeline-year">2017-2026</span><span><span class="timeline-where">Event Horizon Partners</span><span class="timeline-what">Co-founder and CTO of a systematic futures fund, now closed.</span></span></li>
+    <li><span class="timeline-year">Dec 2025-Mar 2026</span><span><span class="timeline-where">Treasury platform</span><span class="timeline-what">Solo, three months. Ledger, JPMorgan and Stripe rails, all 23 ACH return codes.</span></span></li>
+    <li><span class="timeline-year">2026</span><span><span class="timeline-where">CatalystFire</span><span class="timeline-what">My agentic platform, and the products built on it: AncestralFire and VoiceCatalyst.</span></span></li>
   </ol>
 </section>
 
 <section id="now">
   <h2>Building now</h2>
-  <ul class="receipts">
+  <ul class="products">
     <li>
-      <p class="receipt-headline">CatalystFire, 2026</p>
+      <p class="receipt-headline">CatalystFire <small>the platform</small></p>
       <p class="receipt-body">An agentic platform built and run solo, locally. Anthropic and OpenAI agents work the same problem in parallel in isolated worktrees, every change lands as a pull request with its tests, and high stakes changes are reviewed by a different model family than the one that wrote them. Underneath is the context layer described above, on QMD and GitNexus, with a fixed probe set scoring every change.</p>
     </li>
     <li>
-      <p class="receipt-headline"><a href="https://ancestral-fire.com">AncestralFire</a>, in beta</p>
+      <p class="receipt-headline"><a href="https://ancestral-fire.com">AncestralFire</a> <small>in beta · ancestral-fire.com</small></p>
       <p class="receipt-body">Family history, told as stories. A family tree file becomes a graph inside each subscriber's own isolated agent; every ancestor is enriched from sources measured one by one (the Wikidata graph, period texts such as the 1911 Britannica, Europeana's national collections, the UK National Archives, historic newspapers, a gazetteer of places as they existed at the time); and the agent tells their story as a letter, a pedigree, a relationship graph or a migration map, always separating sourced fact from inference. Being rebuilt MCP first, so the same agent works inside Claude, ChatGPT and the web app. Cloudflare Workers, Durable Objects, Vectorize and Workers AI.</p>
     </li>
     <li>
-      <p class="receipt-headline"><a href="https://voice-catalyst.com">VoiceCatalyst</a></p>
+      <p class="receipt-headline"><a href="https://voice-catalyst.com">VoiceCatalyst</a> <small>voice-catalyst.com</small></p>
       <p class="receipt-body">Speech into agents, about four times faster than typing, on local models, on the Mac and the iPhone. A wrong word becomes a wrong instruction, so the fix is data rather than acoustics: context harvested live and the person's own vocabulary and corrections are substituted in real time, lifting accuracy by up to 20 points in my benchmarks, most on smaller models.</p>
     </li>
   </ul>
@@ -281,26 +116,11 @@
 <section id="built">
   <h2>What I've built</h2>
   <ul class="receipts">
-    <li>
-      <p class="receipt-headline">Corporate treasury platform, December 2025 to March 2026</p>
-      <p class="receipt-body">Principal Engineer, contract, for a business licensing compliance company. Solo, in three months: a double entry, immutable ledger across 31 tables; multi rail money movement (ACH, wire, RTP) through JPMorgan's API with virtual accounts, and Stripe; a two phase payment pattern that keeps the ledger consistent when a provider call fails; approval workflows and affiliate distribution; reconciliation one to one, one to many and many to one, with all 23 ACH return codes matched to the original payment and reversed automatically. One domain model served three ways: a front end for people, a workflow engine, and an MCP server plus CLI for agents. Infrastructure first: Terraform and Bazel, least privilege permissions, three environment promotion, weekly progress to leadership.</p>
-    </li>
-    <li>
-      <p class="receipt-headline">Event Horizon Partners, 2017 to 2026</p>
-      <p class="receipt-body">Co-founder and CTO of a systematic futures fund, with two partners; now closed. An unrestricted learning lab: real time market data streamed through the decision engine in under a millisecond and straight into BigQuery, every trade and decision kept so each model version trained on the last one's exhaust. Continuous experimentation, champion versus challenger promotion, stability gates, walk forward and regime testing, strict train and out of sample separation. Supervised and unsupervised models, clustering and hidden Markov models for regimes, reinforcement learning, and hyperparameter and multi objective search with Optuna and Ray Tune. Near random data is the hardest test I know of whether a platform actually works.</p>
-    </li>
-    <li>
-      <p class="receipt-headline">Wells Fargo, 2019 to 2022</p>
-      <p class="receipt-body">Recruited to upgrade credit risk's data platform so the bank could improve its automated decisioning. With a team of three, I shifted metadata and security left until metadata became the control plane: every execution validated against it, lineage and impact known at full coverage, audit evidence from one mechanism instead of four. The commercial tools were never going to be approved, so we built dbt style transformation and orchestration out of SAS and shell. 22,000+ column level transformations a day; months between an idea and its execution became hours; still running years after I left.</p>
-    </li>
-    <li>
-      <p class="receipt-headline">Bank of America, 2004 to 2016</p>
-      <p class="receipt-body">Recruited after the Countrywide acquisition, when loan modifications could not get through the system. I sat with the people doing the work until I understood it, unified 47 federated data sources behind over a million modification decisions, and built a numbered taxonomy of every step. The daily report became the process and moved the work of 15,000 associates for years. The standard was 95% of loans worked within 30 days against 70% actual, and closing that gap was the hard part. I was the primary data witness in the class action; it held, and the case was dismissed.</p>
-    </li>
-    <li>
-      <p class="receipt-headline">GE, 2000 to 2004</p>
-      <p class="receipt-body">Six Sigma Master Black Belt. Design of experiments and statistical process control against live process data, and I certified hundreds of people so improvement never depended on me being in the room.</p>
-    </li>
+    <li><span class="receipt-when">December 2025 to March 2026</span><div><p class="receipt-headline">Corporate treasury platform</p><p class="receipt-body">Principal Engineer, contract, for a business licensing compliance company. Solo, in three months: a double entry, immutable ledger across 31 tables; multi rail money movement (ACH, wire, RTP) through JPMorgan's API with virtual accounts, and Stripe; a two phase payment pattern that keeps the ledger consistent when a provider call fails; approval workflows and affiliate distribution; reconciliation one to one, one to many and many to one, with all 23 ACH return codes matched to the original payment and reversed automatically. One domain model served three ways: a front end for people, a workflow engine, and an MCP server plus CLI for agents. Infrastructure first: Terraform and Bazel, least privilege permissions, three environment promotion, weekly progress to leadership.</p></div></li>
+    <li><span class="receipt-when">2017 to 2026</span><div><p class="receipt-headline">Event Horizon Partners</p><p class="receipt-body">Co-founder and CTO of a systematic futures fund, with two partners; now closed. An unrestricted learning lab: real time market data streamed through the decision engine in under a millisecond and straight into BigQuery, every trade and decision kept so each model version trained on the last one's exhaust. Continuous experimentation, champion versus challenger promotion, stability gates, walk forward and regime testing, strict train and out of sample separation. Supervised and unsupervised models, clustering and hidden Markov models for regimes, reinforcement learning, and hyperparameter and multi objective search with Optuna and Ray Tune. Near random data is the hardest test I know of whether a platform actually works.</p></div></li>
+    <li><span class="receipt-when">2019 to 2022</span><div><p class="receipt-headline">Wells Fargo</p><p class="receipt-body">Recruited to upgrade credit risk's data platform so the bank could improve its automated decisioning. With a team of three, I shifted metadata and security left until metadata became the control plane: every execution validated against it, lineage and impact known at full coverage, audit evidence from one mechanism instead of four. The commercial tools were never going to be approved, so we built dbt style transformation and orchestration out of SAS and shell. 22,000+ column level transformations a day; months between an idea and its execution became hours; still running years after I left.</p></div></li>
+    <li><span class="receipt-when">2004 to 2016</span><div><p class="receipt-headline">Bank of America</p><p class="receipt-body">Recruited after the Countrywide acquisition, when loan modifications could not get through the system. I sat with the people doing the work until I understood it, unified 47 federated data sources behind over a million modification decisions, and built a numbered taxonomy of every step. The daily report became the process and moved the work of 15,000 associates for years. The standard was 95% of loans worked within 30 days against 70% actual, and closing that gap was the hard part. I was the primary data witness in the class action; it held, and the case was dismissed.</p></div></li>
+    <li><span class="receipt-when">2000 to 2004</span><div><p class="receipt-headline">GE</p><p class="receipt-body">Six Sigma Master Black Belt. Design of experiments and statistical process control against live process data, and I certified hundreds of people so improvement never depended on me being in the room.</p></div></li>
   </ul>
 </section>
 
@@ -308,7 +128,7 @@
   <h2>How I work</h2>
   <ul class="day-one">
     <li>Proof of concept first, then production. That is how the fund's platform was built and how the treasury platform shipped in three months.</li>
-    <li>I write the code. I learn the work at the level of the people doing it, build the first version myself, then build the team that runs it.</li>
+    <li>I learn the work at the level of the people doing it and build the first version myself, with agents writing most of the code and me verifying it. Then I build the team that runs it.</li>
     <li>Context curated into a graph, so the agent queries once instead of scrambling through tool calls.</li>
     <li>Measured, not asserted: probe sets before and after every change, and ablations that reproduce.</li>
     <li>Evaluation, provenance and guardrails built in at the start. Bolted on at the end they are theater, and theater costs you your speed.</li>
